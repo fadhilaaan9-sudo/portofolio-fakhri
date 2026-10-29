@@ -9,8 +9,9 @@ export const contact = {
   // Nomor ditulis persis seperti di CV.
   phoneDisplay: '+62 895 6130 4800 6',
   phoneHref: 'tel:+62895613048006',
-  githubLabel: 'github.com/fahryanRizky',
-  githubUrl: 'https://github.com/fahryanRizky',
+  // Link GitHub diubah atas permintaan user 2026-10-29 (di CV tertulis link lain).
+  githubLabel: 'github.com/fakhriaja07',
+  githubUrl: 'https://github.com/fakhriaja07',
   cvUrl: '/CV-Fakhri.pdf',
 }
 
