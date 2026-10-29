@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* Token warna dan tipografi dari DESIGN.md Aether. */
+@theme {
+  --color-background: #050505;
+  --color-panel: #111111;
+  --color-surface: #f4f4f4;
+  --color-border: #27272a;
+  --color-muted: #a1a1aa;
+
+  --font-sans: "Inter", ui-sans-system, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #050505;
+  color: #ffffff;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: #ffffff;
+  color: #050505;
+}
+
+/* Reveal halus saat section masuk layar. */
+.reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+}
