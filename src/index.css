@@ -21,6 +21,28 @@ body {
   color: #ffffff;
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+  /* Pengaman overflow horizontal di layar kecil; penyebab utama tetap diperbaiki di komponen. */
+  overflow-x: clip;
+}
+
+/* Judul tidak pecah aneh saat lebar berubah. */
+h1,
+h2 {
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+
+/* Media tidak pernah meluber dari wadahnya. */
+img,
+svg,
+video {
+  max-width: 100%;
+}
+
+/* Fokus keyboard tetap terlihat di semua device. */
+:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
 }
 
 ::selection {

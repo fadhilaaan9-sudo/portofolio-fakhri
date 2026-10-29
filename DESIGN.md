@@ -40,3 +40,19 @@ mono (`02-A // ...`), dipisah garis `#27272A`.
 
 Reveal halus saat masuk layar, hover lift ringan. Hormati
 `prefers-reduced-motion`.
+
+## Responsif (320px – 1920px, diverifikasi 2026-10-29)
+
+- Judul pakai `clamp()`: hero 40px → 64px, judul section 28px → 48px,
+  judul kontak 32px → 56px. Label mono tracking lebih rapat di mobile.
+- Padding section 56px di mobile, 80px di desktop; padding kartu 20px
+  di mobile, 24px di desktop.
+- Grid 1 kolom di mobile, 3 kolom di `md`, 2 kolom proyek/pendidikan
+  di `lg`. Tombol hero full-width di mobile, inline di `sm` ke atas,
+  tinggi tap minimal 44–48px.
+- Header sticky mobile 110px (bar + nav scroll horizontal), jadi
+  `scroll-mt` section 112px di mobile, 96px di desktop — judul section
+  tidak tertutup header saat lompat lewat anchor.
+- `overflow-x: clip` di body sebagai pengaman; tidak ada overflow
+  horizontal dokumen di 320/360/375/390/412/430/768/820/1024/1280/
+  1440/1920px.

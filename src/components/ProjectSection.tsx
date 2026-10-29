@@ -5,8 +5,8 @@ import SectionHeading from './SectionHeading'
 // Satu-satunya proyek di CV. Angka hasil tidak ditampilkan karena tidak ada di CV.
 export default function ProjectSection() {
   return (
-    <section id="proyek" className="scroll-mt-24 border-t border-border">
-      <div className="mx-auto max-w-6xl px-4 py-20 md:px-6 md:py-20">
+    <section id="proyek" className="scroll-mt-28 border-t border-border md:scroll-mt-24">
+      <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-16 md:py-20">
         <Reveal>
           <SectionHeading
             number="03-A"
@@ -31,21 +31,21 @@ export default function ProjectSection() {
             </span>
           </div>
 
-          <div className="mt-12 grid gap-10 lg:grid-cols-2">
-            <div>
-              <h3 className="font-mono text-xs font-semibold tracking-[0.2em] text-muted uppercase">
+          <div className="mt-8 grid gap-8 sm:mt-12 sm:gap-10 lg:grid-cols-2">
+            <div className="min-w-0">
+              <h3 className="font-mono text-xs font-semibold tracking-[0.16em] break-words text-muted uppercase sm:tracking-[0.2em]">
                 Cara kerja
               </h3>
               <ol className="mt-5 space-y-0">
                 {projectSteps.map((step) => (
                   <li
                     key={step.code}
-                    className="flex gap-4 border-t border-border py-5 last:border-b"
+                    className="flex gap-3 border-t border-border py-5 last:border-b sm:gap-4"
                   >
-                    <span className="font-mono text-sm font-semibold text-muted">
+                    <span className="shrink-0 font-mono text-sm font-semibold text-muted">
                       {step.code}
                     </span>
-                    <div>
+                    <div className="min-w-0">
                       <p className="font-medium text-white">{step.title}</p>
                       <p className="mt-1 text-sm leading-relaxed text-muted">
                         {step.description}
@@ -56,18 +56,18 @@ export default function ProjectSection() {
               </ol>
             </div>
 
-            <div>
-              <h3 className="font-mono text-xs font-semibold tracking-[0.2em] text-muted uppercase">
+            <div className="min-w-0">
+              <h3 className="font-mono text-xs font-semibold tracking-[0.16em] break-words text-muted uppercase sm:tracking-[0.2em]">
                 Lima metode jarak yang dibandingkan
               </h3>
               <ul className="mt-5 space-y-3">
                 {distanceMethods.map((method) => (
                   <li
                     key={method.code}
-                    className="flex items-baseline justify-between gap-4 rounded-lg border border-border bg-panel px-6 py-5 transition-colors hover:border-muted"
+                    className="flex items-baseline justify-between gap-4 rounded-lg border border-border bg-panel px-4 py-4 transition-colors hover:border-muted sm:px-6 sm:py-5"
                   >
-                    <span className="font-medium text-white">{method.name}</span>
-                    <span className="font-mono text-xs font-semibold text-muted">
+                    <span className="min-w-0 font-medium break-words text-white">{method.name}</span>
+                    <span className="shrink-0 font-mono text-xs font-semibold text-muted">
                       {method.code}
                     </span>
                   </li>

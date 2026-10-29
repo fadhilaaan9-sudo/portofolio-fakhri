@@ -5,8 +5,8 @@ import SectionHeading from './SectionHeading'
 // Ringkasan profil: teks diambil dari CV, tidak ditambah-tambah.
 export default function ProfileSection() {
   return (
-    <section id="profil" className="scroll-mt-24 border-t border-border">
-      <div className="mx-auto max-w-6xl px-4 py-20 md:px-6 md:py-20">
+    <section id="profil" className="scroll-mt-28 border-t border-border md:scroll-mt-24">
+      <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-16 md:py-20">
         <Reveal>
           <SectionHeading
             number="02-A"

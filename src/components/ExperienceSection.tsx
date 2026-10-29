@@ -5,8 +5,8 @@ import SectionHeading from './SectionHeading'
 // Pengalaman magang, urut dari yang terbaru, sesuai CV.
 export default function ExperienceSection() {
   return (
-    <section id="pengalaman" className="scroll-mt-24 border-t border-border">
-      <div className="mx-auto max-w-6xl px-4 py-20 md:px-6 md:py-20">
+    <section id="pengalaman" className="scroll-mt-28 border-t border-border md:scroll-mt-24">
+      <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-16 md:py-20">
         <Reveal>
           <SectionHeading
             number="04-A"
@@ -16,15 +16,15 @@ export default function ExperienceSection() {
 
           <div className="space-y-10">
             {experiences.map((job) => (
-              <article key={job.place} className="grid gap-4 md:grid-cols-[1fr_2fr]">
-                <div>
-                  <h3 className="text-xl font-medium text-white">{job.place}</h3>
+              <article key={job.place} className="grid min-w-0 gap-3 sm:gap-4 md:grid-cols-[1fr_2fr]">
+                <div className="min-w-0">
+                  <h3 className="text-lg font-medium break-words text-white sm:text-xl">{job.place}</h3>
                   <p className="mt-1 text-muted">{job.role}</p>
-                  <p className="mt-2 font-mono text-xs font-semibold tracking-[0.14em] text-muted uppercase">
+                  <p className="mt-2 font-mono text-xs font-semibold tracking-[0.14em] break-words text-muted uppercase">
                     {job.period}
                   </p>
                 </div>
-                <ul className="space-y-3">
+                <ul className="min-w-0 space-y-3">
                   {job.points.map((point) => (
                     <li
                       key={point}

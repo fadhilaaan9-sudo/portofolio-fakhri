@@ -16,7 +16,8 @@ export default function Reveal({ children }: { children: ReactNode }) {
           observer.disconnect()
         }
       },
-      { threshold: 0.12 },
+      // Threshold kecil supaya section tinggi tetap ter-reveal saat scroll cepat di mobile.
+      { threshold: 0.05 },
     )
 
     observer.observe(element)
