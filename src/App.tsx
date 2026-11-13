@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import ProfileSection from './components/ProfileSection'
 import ProjectSection from './components/ProjectSection'
 import SiteHeader from './components/SiteHeader'
+import TrainingSection from './components/TrainingSection'
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <ProfileSection />
         <ProjectSection />
         <ExperienceSection />
+        <TrainingSection />
         <EducationSkillsSection />
         <ContactSection />
       </main>

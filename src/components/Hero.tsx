@@ -15,9 +15,9 @@ export default function Hero() {
         </h1>
 
         <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted sm:mt-6 sm:text-lg md:text-xl">
-          Mengolah data menjadi perbandingan yang bisa dievaluasi — dari data
-          kuesioner kepuasan masyarakat, lewat K-Means Clustering, sampai
-          diuji dengan Davies-Bouldin Index dan Silhouette Score.
+          Mengolah data menjadi laporan dan visualisasi yang mudah dipahami —
+          dari riset kepuasan masyarakat yang dipublikasikan, sampai dashboard
+          data operasional sekolah di proyek Brandis.
         </p>
 
         <div className="mt-7 flex flex-col gap-3 sm:mt-8 sm:flex-row sm:flex-wrap">
@@ -48,21 +48,23 @@ export default function Hero() {
             <p className="font-mono text-xs font-semibold tracking-[0.16em] text-muted sm:tracking-[0.2em]">01-A</p>
             <p className="mt-3 font-medium text-white">K-Means Clustering</p>
             <p className="mt-1 text-sm leading-relaxed text-muted">
-              Membandingkan metode jarak dalam analisis kepuasan masyarakat.
+              Membandingkan metode jarak dalam analisis kepuasan masyarakat —
+              dipublikasikan di Jurnal Terapan Informatika Nusantara, SINTA 4.
             </p>
           </div>
           <div className="min-w-0 bg-background p-5 sm:p-6">
             <p className="font-mono text-xs font-semibold tracking-[0.16em] text-muted sm:tracking-[0.2em]">02-B</p>
-            <p className="mt-3 font-medium text-white">Python &amp; RapidMiner</p>
+            <p className="mt-3 font-medium text-white">Brandis (Brand Ikasari)</p>
             <p className="mt-1 text-sm leading-relaxed text-muted">
-              Dua tools yang dipakai untuk mengolah dan menganalisis data.
+              Data Analyst 2024–2025: dashboard dan visualisasi data
+              operasional sekolah, tim 4 orang.
             </p>
           </div>
           <div className="min-w-0 bg-background p-5 sm:p-6">
             <p className="font-mono text-xs font-semibold tracking-[0.16em] text-muted sm:tracking-[0.2em]">03-C</p>
-            <p className="mt-3 font-medium text-white">Evaluasi Clustering</p>
+            <p className="mt-3 font-medium text-white">Python, RapidMiner &amp; SQL</p>
             <p className="mt-1 text-sm leading-relaxed text-muted">
-              Davies-Bouldin Index dan Silhouette Score sebagai penguji hasil.
+              Tools yang dipakai untuk mengolah dan menganalisis data.
             </p>
           </div>
         </div>

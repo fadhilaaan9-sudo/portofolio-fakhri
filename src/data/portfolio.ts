@@ -16,7 +16,7 @@ export const contact = {
 }
 
 export const profileSummary =
-  'Lulusan S1 Teknik Informatika dengan pengalaman dalam pengolahan dan analisis data melalui penelitian tugas akhir menggunakan metode K-Means Clustering untuk membandingkan metode jarak dalam analisis tingkat kepuasan masyarakat terhadap layanan. Penelitian menggunakan Python dan RapidMiner dengan evaluasi menggunakan Davies-Bouldin Index dan Silhouette Score. Selain itu, memiliki pengalaman sebagai Technical Analyst dalam proyek pengembangan sistem informasi.'
+  'Lulusan S1 Teknik Informatika yang memiliki ketertarikan dan kemampuan di bidang pengolahan dan analisis data. Berpengalaman mengolah data, menyajikannya dalam bentuk laporan dan visualisasi yang mudah dipahami, serta menjaga kualitas data agar dapat mendukung pengambilan keputusan. Memiliki pengalaman riset yang telah dipublikasikan, pengalaman proyek tim, dan pengalaman di lingkungan kerja instansi pemerintah. Teliti, bertanggung jawab, cepat belajar, dan terbiasa berkolaborasi dengan berbagai pihak untuk menyelesaikan masalah.'
 
 export const distanceMethods = [
   {
@@ -73,19 +73,36 @@ export const projectSteps = [
   },
 ]
 
+export const brandisProject = {
+  name: 'Brandis (Brand Ikasari)',
+  role: 'Data Analyst',
+  period: '2024 – 2025',
+  context:
+    'Proyek kolaborasi universitas dengan SMKF Ikasari · Tim 4 orang · Pekanbaru, Riau',
+  points: [
+    'Mengelola dan mengolah data operasional sekolah untuk mendukung kebutuhan pelaporan dan analisis.',
+    'Merancang struktur dan alur data serta menjaga kualitas dan konsistensi data pada sistem informasi.',
+    'Menyajikan data dalam bentuk dashboard dan visualisasi agar mudah dipahami oleh pengguna.',
+    'Berkolaborasi dengan tim untuk memahami kebutuhan pengguna dan menerjemahkannya menjadi fitur pelaporan.',
+  ],
+  tags: ['Data Analysis', 'Dashboard', 'Visualisasi Data', 'Sistem Informasi'],
+}
+
 export const experiences = [
   {
     place: 'DPMPTSP Kota Pekanbaru',
     role: 'IT Support Intern',
     period: 'Januari 2025 – Maret 2025',
     points: [
-      'Mengikuti proses kerja dan pelayanan yang berlangsung di lingkungan instansi.',
-      'Menyelesaikan tugas yang diberikan pembimbing sesuai kebutuhan selama kegiatan magang.',
-      'Berkoordinasi dengan pegawai dan menyesuaikan diri dengan prosedur kerja dalam pelaksanaan tugas.',
+      'Melakukan troubleshooting perangkat keras dan perangkat lunak (komputer, printer, dan jaringan) untuk mendukung kelancaran operasional harian unit kerja.',
+      'Menginstal dan mengonfigurasi sistem operasi serta aplikasi sesuai kebutuhan pegawai.',
+      'Memberikan bantuan teknis kepada pegawai serta membantu pengelolaan data, jaringan, dan dokumentasi IT.',
+      'Menyelesaikan tugas dari pembimbing secara tepat waktu sesuai arahan dan prosedur instansi yang berlaku.',
+      'Beradaptasi dengan cepat di lingkungan kerja pemerintahan dan berkoordinasi secara efektif dengan berbagai pihak terkait.',
     ],
   },
   {
-    place: 'Dinas Lingkungan Hidup dan Kehutanan',
+    place: 'Dinas Lingkungan Hidup dan Kehutanan Kota Pekanbaru',
     role: 'IT Support Intern',
     period: 'Maret 2021 – Mei 2021',
     points: [
@@ -99,8 +116,46 @@ export const experiences = [
 export const education = {
   degree: 'S1 Teknik Informatika',
   school: 'Universitas Islam Negeri Sultan Syarif Kasim Riau',
+  location: 'Pekanbaru, Riau',
   period: 'Juli 2022 – Juli 2026',
+  gpa: '3.46/4.00',
 }
+
+export const publication = {
+  kind: 'Skripsi dan Publikasi Ilmiah',
+  title:
+    'Analisis Komparatif Jarak Euclidean, Manhattan, Canberra, Chebyshev, Cosine pada K-Means untuk Evaluasi Kepuasan Masyarakat',
+  journal: 'Jurnal Terapan Informatika Nusantara',
+  detail: 'Vol. 7, No. 1 — Juni 2026',
+  accreditation: 'SINTA 4',
+}
+
+export const trainings = [
+  {
+    title: 'Fundamental of Data Analyst',
+    provider: 'DQLab',
+    scope: 'Nasional',
+    year: '2026',
+  },
+  {
+    title: 'Practical Real Business Application for Data Analyst',
+    provider: 'DQLab',
+    scope: 'Nasional',
+    year: '2026',
+  },
+  {
+    title: 'Data Scientist Supervisor',
+    provider: null,
+    scope: 'Nasional',
+    year: '2026',
+  },
+  {
+    title: 'Associate Data Scientist + Python',
+    provider: null,
+    scope: 'Nasional',
+    year: '2026',
+  },
+]
 
 export const skillGroups = [
   {
@@ -114,7 +169,7 @@ export const skillGroups = [
   },
   {
     title: 'Data Analysis Tools',
-    items: ['Python', 'RapidMiner'],
+    items: ['Python', 'RapidMiner', 'SQL'],
   },
   {
     title: 'Office Tools',
@@ -122,10 +177,23 @@ export const skillGroups = [
   },
 ]
 
+export const softSkills = [
+  'Pekerja Keras',
+  'Disiplin',
+  'Bertanggung Jawab',
+  'Teliti',
+  'Manajemen Waktu',
+  'Komunikasi',
+  'Kerja Sama Tim',
+  'Cepat Belajar',
+  'Problem Solving',
+]
+
 export const navLinks = [
   { label: 'Profil', href: '#profil' },
   { label: 'Proyek', href: '#proyek' },
   { label: 'Pengalaman', href: '#pengalaman' },
+  { label: 'Pelatihan', href: '#pelatihan' },
   { label: 'Pendidikan', href: '#pendidikan' },
   { label: 'Kontak', href: '#kontak' },
 ]

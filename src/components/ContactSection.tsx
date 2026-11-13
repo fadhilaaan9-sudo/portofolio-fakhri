@@ -8,7 +8,7 @@ export default function ContactSection() {
       <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-16 md:py-20">
         <Reveal>
           <p className="font-mono text-xs font-semibold tracking-[0.16em] text-muted uppercase sm:tracking-[0.2em]">
-            06-A // Kontak
+            07-A // Kontak
           </p>
           <h2 className="mt-4 text-[clamp(2rem,9vw,3.5rem)] leading-[1.04] font-medium tracking-tight text-white">
             Hubungi Fakhri.
