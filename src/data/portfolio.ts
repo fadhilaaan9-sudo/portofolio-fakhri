@@ -40,15 +40,6 @@ export const focusAreas = [
   },
 ]
 
-export const kmeansProject = {
-  label: 'Riset Skripsi · Terpublikasi',
-  title: 'Clustering Kepuasan Masyarakat dengan K-Means',
-  year: '2026',
-  description:
-    'Skripsi yang diuji lewat perbandingan lima metrik jarak dalam satu kerangka evaluasi.',
-  tags: ['K-Means', 'Python', 'RapidMiner', 'SINTA 4'],
-}
-
 export const brandisProject = {
   name: 'Brandis (Brand Ikasari)',
   label: 'Proyek Kolaborasi · Tim 4 Orang',

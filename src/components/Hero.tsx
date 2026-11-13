@@ -54,7 +54,7 @@ export default function Hero() {
               href="#proyek"
               className="inline-flex min-h-[52px] items-center justify-center rounded-full bg-mint px-6 text-sm font-bold text-background transition-opacity hover:opacity-85 sm:w-auto"
             >
-              Lihat Proyek &amp; Riset ↓
+              Lihat Proyek ↓
             </a>
             <a
               href={contact.cvUrl}
