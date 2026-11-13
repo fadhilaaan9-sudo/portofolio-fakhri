@@ -16,7 +16,6 @@ lama diganti secara keseluruhan dengan sistem di bawah ini.
 | jade | `#34d399` | Aksen hijau tua: badge, hover |
 | amber | `#fbbf24` | Aksen label mono & badge riset |
 | amber-soft | `#fcd34d` | Teks label mono amber |
-| blue-cluster | `#93c5fd` | Cluster biru pada ilustrasi K-Means |
 | text-primary | `#ffffff` | Judul & teks utama |
 | text-secondary | `#a3b3a9` | Deskripsi & metadata |
 | border | `#22392d` | Garis & border kartu |
@@ -49,18 +48,23 @@ glassmorphism, tanpa shadow berat.
 - Header: logo kotak mint "F." + "Fakhri / DATA ANALYST — PEKANBARU",
   nav pill gelap di tengah (Tentang, Pendidikan, Pengalaman, Proyek,
   Pelatihan, Keahlian) dengan item aktif berpill, tombol putih
-  "Hubungi Saya" di kanan.
-- Hero dua kolom (teks kiri, kartu K-Means kanan): eyebrow pill
-  "TERBUKA UNTUK PELUANG DATA ANALYST", judul "Fakhri, Data Analyst
-  yang teliti.", subjudul mono amber, paragraf ringkasan, tombol pill
-  mint "Lihat Proyek & Riset" + tombol outline "GitHub — Fakhriaja07",
-  strip kontak (email, telepon, Pekanbaru, Riau). Kartu kanan:
-  "Visualisasi clustering K-Means" + badge "RISET UTAMA", ilustrasi
-  3 cluster (hijau kiri-atas, amber kanan-atas, biru tengah-bawah),
-  chip 5 metrik jarak, pertanyaan riset.
+  "Hubungi Saya" di kanan yang membuka profil Instagram
+  @fakhri_074 (tab baru).
+- Hero satu kolom (maks. 860px, tanpa kartu visualisasi K-Means dan
+  tanpa blok statistik): eyebrow pill "TERBUKA UNTUK PELUANG DATA
+  ANALYST", judul "Fakhri, Data Analyst", subjudul mono amber,
+  paragraf ringkasan singkat, tombol pill mint "Lihat Proyek &
+  Riset" + tombol outline "Unduh CV" (satu-satunya tombol Unduh CV),
+  strip kontak (email, Instagram @fakhri_074 dengan ikon Instagram
+  mint, Pekanbaru, Riau). Tidak ada tombol GitHub di hero.
+- Keahlian: persis dua grup dari CV — Kemampuan Teknis dan Kemampuan
+  Non-Teknis — keduanya memakai pill mint solid.
+- Kontak: tombol "Hubungi Saya" (mailto) + "Salin Email", kartu
+  Email / Instagram / GitHub. Tombol GitHub hanya ada satu, di sini
+  (akhir halaman). Nomor telepon tidak ditampilkan di mana pun.
 - Section: Tentang → Pendidikan & Publikasi → Pengalaman → Proyek →
-  Pelatihan → Keahlian → Kontak. Judul section diawali eyebrow mono
-  amber, kartu panel radius 24px.
+  Pelatihan → Keahlian → Kontak. Judul section tanpa label nomor
+  ("01 / ..."), kartu panel radius 24px.
 
 ## Motion
 
@@ -71,8 +75,8 @@ Reveal halus saat masuk layar, hover lift ringan. Hormati
 
 - Judul pakai `clamp()`: hero 44px → 102px, judul section 28px → 48px,
   judul kontak 32px → 56px.
-- Grid hero 1 kolom di mobile, 2 kolom di `lg`. Grid section 1 kolom
-  di mobile, 2–3 kolom di `md`/`lg`.
+- Hero selalu 1 kolom. Grid section 1 kolom di mobile, 2–3 kolom
+  di `md`/`lg`.
 - Tombol hero full-width di mobile, inline di `sm` ke atas, tinggi
   tap minimal 44–48px.
 - Nav desktop pill di tengah; nav mobile scroll horizontal dalam pill.

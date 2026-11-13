@@ -6,9 +6,11 @@ export const contact = {
   role: 'Data Analyst',
   field: 'Information Technology',
   email: 'mfakhri338@gmail.com',
-  // Nomor ditulis persis seperti di CV.
-  phoneDisplay: '+62 895 6130 4800 6',
-  phoneHref: 'tel:+62895613048006',
+  // Kontak via Instagram atas permintaan user (Nov 2026); nomor
+  // telepon tidak lagi ditampilkan di portofolio.
+  instagramLabel: '@fakhri_074',
+  instagramHandle: 'fakhri_074',
+  instagramUrl: 'https://www.instagram.com/fakhri_074',
   // Link GitHub diubah atas permintaan user 2026-10-29 (di CV tertulis link lain).
   githubLabel: 'github.com/fakhriaja07',
   githubUrl: 'https://github.com/fakhriaja07',
@@ -157,40 +159,27 @@ export const trainings = [
   },
 ]
 
+// Keahlian persis seperti di CV: dua kelompok, urutan sesuai CV.
 export const skillGroups = [
   {
-    title: 'Data Analysis',
+    title: 'Kemampuan Teknis',
+    items: ['Microsoft Word', 'Microsoft Excel', 'Python', 'RapidMiner', 'SQL'],
+  },
+  {
+    title: 'Kemampuan Non-Teknis',
     items: [
-      'Pengolahan data',
-      'K-Means Clustering',
-      'Perbandingan metode jarak',
-      'Evaluasi clustering',
+      'Pekerja Keras',
+      'Disiplin',
+      'Bertanggung Jawab',
+      'Teliti',
+      'Manajemen Waktu',
+      'Komunikasi',
+      'Kerja Sama Tim',
+      'Cepat Belajar',
+      'Problem Solving',
     ],
   },
-  {
-    title: 'Data Analysis Tools',
-    items: ['Python', 'RapidMiner', 'SQL'],
-  },
-  {
-    title: 'Office Tools',
-    items: ['Microsoft Word', 'Microsoft Excel'],
-  },
 ]
-
-export const softSkills = [
-  'Pekerja Keras',
-  'Disiplin',
-  'Bertanggung Jawab',
-  'Teliti',
-  'Manajemen Waktu',
-  'Komunikasi',
-  'Kerja Sama Tim',
-  'Cepat Belajar',
-  'Problem Solving',
-]
-
-export const researchQuestion =
-  'Metrik jarak mana yang menghasilkan cluster kepuasan masyarakat paling baik pada algoritma K-Means?'
 
 export const navLinks = [
   { label: 'Tentang', href: '#profil' },

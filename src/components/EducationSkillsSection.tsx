@@ -1,4 +1,4 @@
-import { education, publication, skillGroups, softSkills } from '../data/portfolio'
+import { education, publication, skillGroups } from '../data/portfolio'
 import Reveal from './Reveal'
 import SectionHeading from './SectionHeading'
 
@@ -8,11 +8,7 @@ export default function EducationSkillsSection() {
     <section id="pendidikan" className="scroll-mt-28 border-t border-border md:scroll-mt-24">
       <div className="mx-auto max-w-[1240px] px-4 py-14 sm:px-6 sm:py-16 md:py-20">
         <Reveal>
-          <SectionHeading
-            number="02"
-            label="Pendidikan & Keahlian"
-            title="Pendidikan & Keahlian"
-          />
+          <SectionHeading title="Pendidikan & Keahlian" />
 
           <div className="grid gap-8 sm:gap-10 lg:grid-cols-2">
             <div className="min-w-0 space-y-6 sm:space-y-8">
@@ -75,21 +71,6 @@ export default function EducationSkillsSection() {
                 </div>
               ))}
 
-              <div className="min-w-0 border-t border-border pt-8">
-                <h3 className="font-mono text-xs font-semibold tracking-[0.16em] break-words text-amber-soft uppercase sm:tracking-[0.2em]">
-                  Soft Skills
-                </h3>
-                <ul className="mt-4 flex flex-wrap gap-2">
-                  {softSkills.map((item) => (
-                    <li
-                      key={item}
-                      className="rounded-full border border-border bg-background-soft px-3 py-2 text-sm font-semibold break-words text-white"
-                    >
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
             </div>
           </div>
         </Reveal>

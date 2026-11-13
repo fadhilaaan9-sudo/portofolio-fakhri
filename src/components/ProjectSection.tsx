@@ -9,11 +9,7 @@ export default function ProjectSection() {
     <section id="proyek" className="scroll-mt-28 border-t border-border md:scroll-mt-24">
       <div className="mx-auto max-w-[1240px] px-4 py-14 sm:px-6 sm:py-16 md:py-20">
         <Reveal>
-          <SectionHeading
-            number="04"
-            label="Proyek"
-            title="Proyek"
-          />
+          <SectionHeading title="Proyek" />
 
           <p className="max-w-3xl text-base leading-[1.6] text-muted md:text-lg">
             Dua proyek dari CV: riset analisis kepuasan masyarakat dan

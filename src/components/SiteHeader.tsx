@@ -1,4 +1,4 @@
-import { navLinks } from '../data/portfolio'
+import { contact, navLinks } from '../data/portfolio'
 
 // Header gaya referensi: logo kotak mint, nav pill gelap di tengah,
 // tombol putih "Hubungi Saya" di kanan.
@@ -40,7 +40,9 @@ export default function SiteHeader() {
         </nav>
 
         <a
-          href="#kontak"
+          href={contact.instagramUrl}
+          target="_blank"
+          rel="noreferrer"
           className="inline-flex min-h-[48px] shrink-0 items-center justify-center rounded-full bg-surface px-5 text-sm font-bold text-black transition-opacity hover:opacity-85"
         >
           Hubungi Saya

@@ -8,11 +8,7 @@ export default function TrainingSection() {
     <section id="pelatihan" className="scroll-mt-28 border-t border-border md:scroll-mt-24">
       <div className="mx-auto max-w-[1240px] px-4 py-14 sm:px-6 sm:py-16 md:py-20">
         <Reveal>
-          <SectionHeading
-            number="05"
-            label="Pelatihan"
-            title="Pelatihan"
-          />
+          <SectionHeading title="Pelatihan" />
 
           <p className="max-w-3xl text-base leading-[1.6] text-muted md:text-lg">
             Pelatihan nasional yang diikuti pada 2026.

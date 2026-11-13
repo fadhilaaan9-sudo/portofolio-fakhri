@@ -8,11 +8,7 @@ export default function ExperienceSection() {
     <section id="pengalaman" className="scroll-mt-28 border-t border-border md:scroll-mt-24">
       <div className="mx-auto max-w-[1240px] px-4 py-14 sm:px-6 sm:py-16 md:py-20">
         <Reveal>
-          <SectionHeading
-            number="03"
-            label="Pengalaman"
-            title="Pengalaman"
-          />
+          <SectionHeading title="Pengalaman" />
 
           <div className="space-y-6">
             {experiences.map((job) => (
