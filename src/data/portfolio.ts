@@ -20,6 +20,26 @@ export const contact = {
 export const profileSummary =
   'Lulusan S1 Teknik Informatika yang memiliki ketertarikan dan kemampuan di bidang pengolahan dan analisis data. Berpengalaman mengolah data, menyajikannya dalam bentuk laporan dan visualisasi yang mudah dipahami, serta menjaga kualitas data agar dapat mendukung pengambilan keputusan. Memiliki pengalaman riset yang telah dipublikasikan, pengalaman proyek tim, dan pengalaman di lingkungan kerja instansi pemerintah. Teliti, bertanggung jawab, cepat belajar, dan terbiasa berkolaborasi dengan berbagai pihak untuk menyelesaikan masalah.'
 
+// Fokus kerja di section Tentang (sesuai preview).
+export const focusAreas = [
+  {
+    title: 'Pengolahan & kualitas data',
+    description: 'Membersihkan dan menjaga konsistensinya sebelum dianalisis.',
+  },
+  {
+    title: 'Laporan & dashboard',
+    description: 'Tampilan ringkas untuk pengambil keputusan.',
+  },
+  {
+    title: 'Riset & clustering',
+    description: 'Perbandingan metrik jarak pada K-Means.',
+  },
+  {
+    title: 'Dukungan IT operasional',
+    description: 'Troubleshooting, instalasi OS, dan dokumentasi teknis.',
+  },
+]
+
 export const distanceMethods = [
   {
     code: '01',
