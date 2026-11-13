@@ -27,12 +27,7 @@ export default function Hero() {
     <section id="atas" className="mx-auto max-w-[1240px] px-4 pt-10 pb-14 sm:px-6 sm:pt-14 md:pt-20 md:pb-24">
       <Reveal>
         <div className="max-w-[860px]">
-          <p className="inline-flex items-center gap-2 rounded-full border border-mint/40 bg-panel px-4 py-2 font-mono text-[11px] font-semibold tracking-[0.18em] text-mint uppercase sm:text-xs">
-            <span className="h-2 w-2 rounded-full bg-mint" aria-hidden="true" />
-            Terbuka untuk peluang Data Analyst
-          </p>
-
-          <h1 className="mt-6 text-[clamp(2.75rem,8vw,6.375rem)] leading-[1.02] font-extrabold tracking-tight text-white">
+          <h1 className="text-[clamp(2.75rem,8vw,6.375rem)] leading-[1.02] font-extrabold tracking-tight text-white">
             Fakhri,
             <br />
             <span className="font-serif font-semibold italic text-mint">
