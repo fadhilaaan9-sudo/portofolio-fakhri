@@ -40,81 +40,34 @@ export const focusAreas = [
   },
 ]
 
-export const distanceMethods = [
-  {
-    code: '01',
-    name: 'Euclidean',
-    note: 'Metode jarak yang dibandingkan dalam clustering.',
-  },
-  {
-    code: '02',
-    name: 'Manhattan',
-    note: 'Metode jarak yang dibandingkan dalam clustering.',
-  },
-  {
-    code: '03',
-    name: 'Canberra',
-    note: 'Metode jarak yang dibandingkan dalam clustering.',
-  },
-  {
-    code: '04',
-    name: 'Chebyshev',
-    note: 'Metode jarak yang dibandingkan dalam clustering.',
-  },
-  {
-    code: '05',
-    name: 'Cosine',
-    note: 'Metode jarak yang dibandingkan dalam clustering.',
-  },
-]
-
-export const projectSteps = [
-  {
-    code: '01',
-    title: 'Olah data kuesioner',
-    description:
-      'Mengolah data hasil kuesioner untuk menganalisis tingkat kepuasan masyarakat.',
-  },
-  {
-    code: '02',
-    title: 'Terapkan K-Means Clustering',
-    description:
-      'Menerapkan K-Means Clustering dengan membandingkan lima metode jarak.',
-  },
-  {
-    code: '03',
-    title: 'Evaluasi hasil clustering',
-    description:
-      'Mengevaluasi hasil clustering menggunakan Davies-Bouldin Index dan Silhouette Score.',
-  },
-  {
-    code: '04',
-    title: 'Bandingkan dengan Python & RapidMiner',
-    description:
-      'Mengolah dan menganalisis data menggunakan Python dan RapidMiner untuk memperoleh hasil perbandingan clustering.',
-  },
-]
+export const kmeansProject = {
+  label: 'Riset Skripsi · Terpublikasi',
+  title: 'Clustering Kepuasan Masyarakat dengan K-Means',
+  year: '2026',
+  description:
+    'Skripsi yang diuji lewat perbandingan lima metrik jarak dalam satu kerangka evaluasi.',
+  tags: ['K-Means', 'Python', 'RapidMiner', 'SINTA 4'],
+}
 
 export const brandisProject = {
   name: 'Brandis (Brand Ikasari)',
-  role: 'Data Analyst',
-  period: '2024 – 2025',
-  context:
-    'Proyek kolaborasi universitas dengan SMKF Ikasari · Tim 4 orang · Pekanbaru, Riau',
+  label: 'Proyek Kolaborasi · Tim 4 Orang',
+  year: '2024 — 2025',
+  description: 'Kolaborasi universitas dengan SMKF Ikasari, Pekanbaru.',
   points: [
     'Mengelola dan mengolah data operasional sekolah untuk mendukung kebutuhan pelaporan dan analisis.',
-    'Merancang struktur dan alur data serta menjaga kualitas dan konsistensi data pada sistem informasi.',
-    'Menyajikan data dalam bentuk dashboard dan visualisasi agar mudah dipahami oleh pengguna.',
-    'Berkolaborasi dengan tim untuk memahami kebutuhan pengguna dan menerjemahkannya menjadi fitur pelaporan.',
+    'Merancang struktur dan alur data serta menjaga kualitas dan konsistensinya pada sistem informasi.',
+    'Menyajikannya sebagai dashboard untuk pengguna sekolah.',
   ],
-  tags: ['Data Analysis', 'Dashboard', 'Visualisasi Data', 'Sistem Informasi'],
+  tags: ['Data Analyst', 'Dashboard', 'Kualitas Data', 'SMKF Ikasari'],
 }
 
 export const experiences = [
   {
     place: 'DPMPTSP Kota Pekanbaru',
+    label: 'DPMPTSP Kota Pekanbaru',
     role: 'IT Support Intern',
-    period: 'Januari 2025 – Maret 2025',
+    period: 'JAN 2025 — MAR 2025',
     points: [
       'Melakukan troubleshooting perangkat keras dan perangkat lunak (komputer, printer, dan jaringan) untuk mendukung kelancaran operasional harian unit kerja.',
       'Menginstal dan mengonfigurasi sistem operasi serta aplikasi sesuai kebutuhan pegawai.',
@@ -125,8 +78,9 @@ export const experiences = [
   },
   {
     place: 'Dinas Lingkungan Hidup dan Kehutanan Kota Pekanbaru',
+    label: 'DLHK Kota Pekanbaru',
     role: 'IT Support Intern',
-    period: 'Maret 2021 – Mei 2021',
+    period: 'MAR 2021 — MEI 2021',
     points: [
       'Mengikuti aktivitas kerja di lingkungan instansi dan memahami alur kerja yang diterapkan.',
       'Menyelesaikan tugas yang diberikan pembimbing dengan mengikuti arahan dan prosedur kerja yang berlaku.',
