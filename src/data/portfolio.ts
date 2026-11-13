@@ -189,11 +189,14 @@ export const softSkills = [
   'Problem Solving',
 ]
 
+export const researchQuestion =
+  'Metrik jarak mana yang menghasilkan cluster kepuasan masyarakat paling baik pada algoritma K-Means?'
+
 export const navLinks = [
-  { label: 'Profil', href: '#profil' },
-  { label: 'Proyek', href: '#proyek' },
-  { label: 'Pengalaman', href: '#pengalaman' },
-  { label: 'Pelatihan', href: '#pelatihan' },
+  { label: 'Tentang', href: '#profil' },
   { label: 'Pendidikan', href: '#pendidikan' },
-  { label: 'Kontak', href: '#kontak' },
+  { label: 'Pengalaman', href: '#pengalaman' },
+  { label: 'Proyek', href: '#proyek' },
+  { label: 'Pelatihan', href: '#pelatihan' },
+  { label: 'Keahlian', href: '#keahlian' },
 ]

@@ -6,21 +6,24 @@ import SectionHeading from './SectionHeading'
 export default function ExperienceSection() {
   return (
     <section id="pengalaman" className="scroll-mt-28 border-t border-border md:scroll-mt-24">
-      <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-16 md:py-20">
+      <div className="mx-auto max-w-[1240px] px-4 py-14 sm:px-6 sm:py-16 md:py-20">
         <Reveal>
           <SectionHeading
-            number="04-A"
+            number="03"
             label="Pengalaman"
             title="Pengalaman"
           />
 
-          <div className="space-y-10">
+          <div className="space-y-6">
             {experiences.map((job) => (
-              <article key={job.place} className="grid min-w-0 gap-3 sm:gap-4 md:grid-cols-[1fr_2fr]">
+              <article
+                key={job.place}
+                className="grid min-w-0 gap-4 rounded-[24px] border border-border bg-panel p-5 sm:p-8 md:grid-cols-[1fr_2fr]"
+              >
                 <div className="min-w-0">
-                  <h3 className="text-lg font-medium break-words text-white sm:text-xl">{job.place}</h3>
-                  <p className="mt-1 text-muted">{job.role}</p>
-                  <p className="mt-2 font-mono text-xs font-semibold tracking-[0.14em] break-words text-muted uppercase">
+                  <h3 className="text-lg font-extrabold break-words text-white sm:text-xl">{job.place}</h3>
+                  <p className="mt-1 font-semibold text-mint">{job.role}</p>
+                  <p className="mt-2 font-mono text-xs font-semibold tracking-[0.14em] break-words text-amber-soft uppercase">
                     {job.period}
                   </p>
                 </div>
@@ -28,7 +31,7 @@ export default function ExperienceSection() {
                   {job.points.map((point) => (
                     <li
                       key={point}
-                      className="border-l-2 border-border pl-4 leading-relaxed text-muted"
+                      className="border-l-2 border-mint pl-4 leading-relaxed text-muted"
                     >
                       {point}
                     </li>

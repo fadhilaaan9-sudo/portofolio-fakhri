@@ -1,14 +1,22 @@
 @import "tailwindcss";
 
-/* Token warna dan tipografi dari DESIGN.md Aether. */
+/* Token warna dan tipografi — sistem desain hijau mint/jade (DESIGN.md). */
 @theme {
-  --color-background: #050505;
-  --color-panel: #111111;
+  --color-background: #060a08;
+  --color-background-soft: #0a120d;
+  --color-panel: #0d1a13;
+  --color-panel-2: #12241a;
   --color-surface: #f4f4f4;
-  --color-border: #27272a;
-  --color-muted: #a1a1aa;
+  --color-mint: #5eeab8;
+  --color-jade: #34d399;
+  --color-amber: #fbbf24;
+  --color-amber-soft: #fcd34d;
+  --color-blue-cluster: #93c5fd;
+  --color-border: #22392d;
+  --color-muted: #a3b3a9;
 
-  --font-sans: "Inter", ui-sans-system, system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-system, system-ui, sans-serif;
+  --font-serif: "Fraunces", Georgia, serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 }
 
@@ -17,12 +25,24 @@ html {
 }
 
 body {
-  background-color: #050505;
+  background-color: #060a08;
   color: #ffffff;
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   /* Pengaman overflow horizontal di layar kecil; penyebab utama tetap diperbaiki di komponen. */
   overflow-x: clip;
+}
+
+/* Glow hijau jade yang sangat halus di latar, seperti referensi. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(720px 480px at 85% -5%, rgba(52, 211, 153, 0.14), transparent 65%),
+    radial-gradient(560px 420px at -10% 30%, rgba(52, 211, 153, 0.07), transparent 60%);
 }
 
 /* Judul tidak pecah aneh saat lebar berubah. */
@@ -41,13 +61,13 @@ video {
 
 /* Fokus keyboard tetap terlihat di semua device. */
 :focus-visible {
-  outline: 2px solid #ffffff;
+  outline: 2px solid #5eeab8;
   outline-offset: 2px;
 }
 
 ::selection {
-  background-color: #ffffff;
-  color: #050505;
+  background-color: #5eeab8;
+  color: #060a08;
 }
 
 /* Reveal halus saat section masuk layar. */
