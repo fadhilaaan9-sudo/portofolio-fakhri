@@ -7,8 +7,8 @@ export default function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur-sm">
       <div className="mx-auto flex min-h-16 max-w-[1240px] items-center justify-between gap-3 px-4 py-3 sm:px-6 md:h-[76px] md:py-0">
         <a href="#atas" className="flex shrink-0 items-center gap-3">
-          <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-mint text-xl font-extrabold text-background">
-            F.
+          <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-mint font-serif text-[27px] font-semibold text-background">
+            F
           </span>
           <span className="leading-tight">
             <span className="block text-lg font-extrabold tracking-tight text-white">
