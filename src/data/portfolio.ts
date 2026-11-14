@@ -100,27 +100,45 @@ export const publication = {
 export const trainings = [
   {
     title: 'Fundamental of Data Analyst',
-    provider: 'DQLab',
-    scope: 'Nasional',
-    year: '2026',
+    description: 'DQLab · Tingkat Nasional',
+    certificateUrl:
+      'https://drive.google.com/file/d/1tiJV8zrqISfhh67vb8vvRz3Jk_mRygtw/view',
   },
   {
     title: 'Practical Real Business Application for Data Analyst',
-    provider: 'DQLab',
-    scope: 'Nasional',
-    year: '2026',
+    description: 'DQLab · Tingkat Nasional',
+    certificateUrl:
+      'https://drive.google.com/file/d/1cw3FA_KDlP3zA5-dYLteAEU6CJdf5K8F/view',
   },
   {
     title: 'Data Scientist Supervisor',
-    provider: null,
-    scope: 'Nasional',
-    year: '2026',
+    description: 'Tingkat Nasional',
+    certificateUrl:
+      'https://drive.google.com/file/d/1zsNNYZbLe6XpdUQZkEVw5KQgPs8Nvc57/view',
   },
   {
     title: 'Associate Data Scientist + Python',
-    provider: null,
-    scope: 'Nasional',
-    year: '2026',
+    description: 'Tingkat Nasional',
+    certificateUrl:
+      'https://drive.google.com/file/d/18VhAY-TmpQsuvu9r5WhKzw6wPX04as--/view',
+  },
+  {
+    title: 'Pengenalan Data Science dan Pemanfaatannya di Berbagai Sektor',
+    description: null,
+    certificateUrl:
+      'https://drive.google.com/file/d/1sF0hnteLPMCFAdC_tJiCy3GIvKzG4LkK/view',
+  },
+  {
+    title: 'Fundamental of Computer Operator Technician',
+    description: 'Tingkat Nasional · Micro Skill',
+    certificateUrl:
+      'https://drive.google.com/file/d/19vnvyn7vdT43MDCGibp7vvTPTur3Ylbo/view',
+  },
+  {
+    title: 'Intermediate Computer Operator Technician',
+    description: 'Tingkat Nasional',
+    certificateUrl:
+      'https://drive.google.com/file/d/1x7d_cYCV1CETmlh1LOPvRSpf3I7l9qIT/view',
   },
 ]
 
