@@ -84,9 +84,6 @@ export default function ContactSection() {
       <footer className="border-t border-border">
         <div className="mx-auto flex max-w-[1240px] flex-col gap-1 px-4 py-6 text-sm text-muted sm:px-6 md:flex-row md:items-center md:justify-between">
           <p>© 2026 Fakhri — Data Analyst</p>
-          <p className="font-mono text-xs tracking-[0.14em] break-words uppercase">
-            React + Vite + Tailwind CSS
-          </p>
         </div>
       </footer>
     </section>
