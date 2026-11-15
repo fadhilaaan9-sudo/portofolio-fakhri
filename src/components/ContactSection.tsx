@@ -29,11 +29,6 @@ export default function ContactSection() {
               Fakhri.
             </span>
           </h2>
-          <p className="mt-4 max-w-2xl leading-relaxed text-muted">
-            Terbuka untuk peluang Data Analyst — silakan hubungi melalui
-            email, Instagram, atau GitHub.
-          </p>
-
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <a
               href={`mailto:${contact.email}`}
