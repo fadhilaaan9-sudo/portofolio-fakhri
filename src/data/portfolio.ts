@@ -53,6 +53,22 @@ export const brandisProject = {
   tags: ['Data Analyst', 'Dashboard', 'Kualitas Data', 'SMKF Ikasari'],
 }
 
+// Proyek di luar CV, ditambahkan atas permintaan user (Nov 2026).
+export const dashboardProject = {
+  name: 'Dashboard Harga Bahan Pokok & Inflasi Indonesia',
+  label: 'Dashboard Data · Live',
+  year: '2026',
+  description:
+    'Dashboard harga bahan pokok nasional dan Riau dari data PIHPS Bank Indonesia dan BPS, dengan indikator inflasi dan perbandingan harga Riau vs nasional.',
+  points: [
+    'Menampilkan harga 21 komoditas nasional dari PIHPS Bank Indonesia per 17 November 2026 beserta perubahan hariannya.',
+    'Menyajikan indikator inflasi BPS Oktober 2026, termasuk inflasi cabai rawit 104,35% (y-on-y).',
+    'Membandingkan harga Riau dan Pekanbaru dengan rata-rata nasional, dengan pencarian, filter kategori, dan grafik perbandingan.',
+  ],
+  tags: ['PIHPS Nasional', 'BPS', 'Riau & Pekanbaru', 'Visualisasi Data'],
+  link: 'https://harga-bahan-pokok.fakhrigalaxy.my.id',
+}
+
 export const experiences = [
   {
     place: 'DPMPTSP Kota Pekanbaru',
