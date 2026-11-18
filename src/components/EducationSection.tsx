@@ -49,6 +49,14 @@ export default function EducationSection() {
               <p className="mt-1 font-mono text-xs font-semibold tracking-[0.14em] break-words text-muted uppercase">
                 {publication.detail}
               </p>
+              <a
+                href={publication.doiUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-3 inline-flex items-center gap-1.5 rounded-full border border-border bg-background-soft px-3 py-1.5 font-mono text-xs font-semibold tracking-wide text-mint transition-colors hover:border-mint"
+              >
+                DOI: {publication.doi} ↗
+              </a>
             </article>
           </div>
         </Reveal>

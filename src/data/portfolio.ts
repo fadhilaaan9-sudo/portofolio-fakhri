@@ -111,6 +111,8 @@ export const publication = {
   journal: 'Jurnal Terapan Informatika Nusantara',
   detail: 'Vol. 7, No. 1 — Juni 2026',
   accreditation: 'SINTA 4',
+  doi: '10.47065/tin.v7i1.10086',
+  doiUrl: 'https://doi.org/10.47065/tin.v7i1.10086',
 }
 
 export const trainings = [
