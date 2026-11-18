@@ -22,7 +22,7 @@ export default function SkillsSection() {
                   {group.items.map((item) => (
                     <li
                       key={item}
-                      className="rounded-full bg-mint px-3 py-2 text-sm font-bold break-words text-background"
+                      className="rounded-full bg-mint px-3 py-2 text-sm font-bold break-words text-white"
                     >
                       {item}
                     </li>

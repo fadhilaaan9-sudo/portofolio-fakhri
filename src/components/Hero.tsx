@@ -27,7 +27,7 @@ export default function Hero() {
     <section id="atas" className="mx-auto max-w-[1240px] px-4 pt-10 pb-14 sm:px-6 sm:pt-14 md:pt-20 md:pb-24">
       <Reveal>
         <div className="max-w-[860px]">
-          <h1 className="text-[clamp(2.75rem,8vw,6.375rem)] leading-[1.02] font-extrabold tracking-tight text-white">
+          <h1 className="text-[clamp(2.75rem,8vw,6.375rem)] leading-[1.02] font-extrabold tracking-tight text-ink">
             Fakhri,
             <br />
             <span className="font-serif font-semibold italic text-mint">
@@ -47,14 +47,14 @@ export default function Hero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <a
               href="#proyek"
-              className="inline-flex min-h-[52px] items-center justify-center rounded-full bg-mint px-6 text-sm font-bold text-background transition-opacity hover:opacity-85 sm:w-auto"
+              className="inline-flex min-h-[52px] items-center justify-center rounded-full bg-mint px-6 text-sm font-bold text-white transition-opacity hover:opacity-85 sm:w-auto"
             >
               Lihat Proyek ↓
             </a>
             <a
               href={contact.cvUrl}
               download="CV-Fakhri.pdf"
-              className="inline-flex min-h-[52px] items-center justify-center rounded-full border border-border px-6 text-sm font-bold text-white transition-colors hover:border-mint hover:text-mint sm:w-auto"
+              className="inline-flex min-h-[52px] items-center justify-center rounded-full border border-border px-6 text-sm font-bold text-ink transition-colors hover:border-mint hover:text-mint sm:w-auto"
             >
               Unduh CV
             </a>

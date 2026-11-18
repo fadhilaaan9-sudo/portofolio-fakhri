@@ -17,7 +17,7 @@ export default function ProfileSection() {
               <p className="font-mono text-xs font-semibold tracking-[0.16em] text-amber-soft uppercase">
                 Ringkasan Profil
               </p>
-              <p className="mt-4 text-base leading-[1.6] text-white md:text-lg">
+              <p className="mt-4 text-base leading-[1.6] text-ink md:text-lg">
                 {profileSummary}
               </p>
             </div>
@@ -32,7 +32,7 @@ export default function ProfileSection() {
                       {String(index + 1).padStart(2, '0')}
                     </span>
                     <span className="min-w-0">
-                      <span className="block font-bold text-white">{item.title}</span>
+                      <span className="block font-bold text-ink">{item.title}</span>
                       <span className="mt-0.5 block text-sm leading-relaxed text-muted">
                         {item.description}
                       </span>

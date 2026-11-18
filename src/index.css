@@ -1,19 +1,20 @@
 @import "tailwindcss";
 
-/* Token warna dan tipografi — sistem desain hijau mint/jade (DESIGN.md). */
+/* Token warna dan tipografi — tema terang, hijau lembut (DESIGN.md). */
 @theme {
-  --color-background: #060a08;
-  --color-background-soft: #0a120d;
-  --color-panel: #0d1a13;
-  --color-panel-2: #12241a;
+  --color-background: #ffffff;
+  --color-background-soft: #f2f7f4;
+  --color-panel: #ffffff;
+  --color-panel-2: #e9f4ed;
   --color-surface: #f4f4f4;
-  --color-mint: #5eeab8;
-  --color-jade: #34d399;
-  --color-amber: #fbbf24;
-  --color-amber-soft: #fcd34d;
+  --color-mint: #4a9470;
+  --color-jade: #3d7d5c;
+  --color-amber: #96690f;
+  --color-amber-soft: #8a6d1f;
   --color-blue-cluster: #93c5fd;
-  --color-border: #22392d;
-  --color-muted: #a3b3a9;
+  --color-border: #dfe9e2;
+  --color-muted: #66746b;
+  --color-ink: #3a4740;
 
   --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-system, system-ui, sans-serif;
   --font-serif: "Fraunces", Georgia, serif;
@@ -25,24 +26,12 @@ html {
 }
 
 body {
-  background-color: #060a08;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #3a4740;
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   /* Pengaman overflow horizontal di layar kecil; penyebab utama tetap diperbaiki di komponen. */
   overflow-x: clip;
-}
-
-/* Glow hijau jade yang sangat halus di latar, seperti referensi. */
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background:
-    radial-gradient(720px 480px at 85% -5%, rgba(52, 211, 153, 0.14), transparent 65%),
-    radial-gradient(560px 420px at -10% 30%, rgba(52, 211, 153, 0.07), transparent 60%);
 }
 
 /* Judul tidak pecah aneh saat lebar berubah. */
@@ -61,13 +50,13 @@ video {
 
 /* Fokus keyboard tetap terlihat di semua device. */
 :focus-visible {
-  outline: 2px solid #5eeab8;
+  outline: 2px solid #4a9470;
   outline-offset: 2px;
 }
 
 ::selection {
-  background-color: #5eeab8;
-  color: #060a08;
+  background-color: #c9ecd9;
+  color: #3a4740;
 }
 
 /* Reveal halus saat section masuk layar. */

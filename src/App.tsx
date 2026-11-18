@@ -12,7 +12,7 @@ import TrainingSection from './components/TrainingSection'
 // Pengalaman → Proyek → Pelatihan → Keahlian → Kontak.
 export default function App() {
   return (
-    <div className="min-h-screen bg-background font-sans text-white">
+    <div className="min-h-screen bg-background font-sans text-ink">
       <SiteHeader />
       <main>
         <Hero />

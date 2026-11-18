@@ -10,7 +10,7 @@ export default function SectionHeading({
 }) {
   return (
     <div className="mb-8 min-w-0 sm:mb-10 md:mb-12">
-      <h2 className="text-[clamp(1.75rem,7.5vw,3rem)] leading-[1.08] font-extrabold tracking-tight text-white">
+      <h2 className="text-[clamp(1.75rem,7.5vw,3rem)] leading-[1.08] font-extrabold tracking-tight text-ink">
         {title}
         {accent ? (
           <>

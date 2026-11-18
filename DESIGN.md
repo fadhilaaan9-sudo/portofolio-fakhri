@@ -1,4 +1,4 @@
-# DESIGN.md — Portofolio Fakhri (Hijau Mint / Jade)
+# DESIGN.md — Portofolio Fakhri (Tema Terang, Hijau Lembut)
 
 Sumber: gambar referensi kiriman user (Nov 2026). Sistem desain Aether
 lama diganti secara keseluruhan dengan sistem di bawah ini.
@@ -7,22 +7,22 @@ lama diganti secara keseluruhan dengan sistem di bawah ini.
 
 | Token | Nilai | Pakai |
 |---|---|---|
-| background | `#060a08` | Latar utama (gelap kehijauan, hampir hitam) |
-| background-soft | `#0a120d` | Latar kartu / area hero |
-| panel | `#0d1a13` | Latar kartu panel |
-| panel-2 | `#12241a` | Latar kartu hover / nav pill |
-| surface (putih) | `#f4f4f4` | Tombol "Hubungi Saya" |
-| mint | `#5eeab8` | Aksen utama: tombol, serif hero, dot aktif |
-| jade | `#34d399` | Aksen hijau tua: badge, hover |
-| amber | `#fbbf24` | Aksen label mono & badge riset |
-| amber-soft | `#fcd34d` | Teks label mono amber |
-| text-primary | `#ffffff` | Judul & teks utama |
-| text-secondary | `#a3b3a9` | Deskripsi & metadata |
-| border | `#22392d` | Garis & border kartu |
+| background | `#ffffff` | Latar utama (putih polos) |
+| background-soft | `#f2f7f4` | Latar lembut (tag, area hero) |
+| panel | `#ffffff` | Latar kartu panel (putih) |
+| panel-2 | `#e9f4ed` | Latar pill aktif / hover |
+| surface (putih) | `#f4f4f4` | Cadangan (tidak dipakai saat ini) |
+| mint | `#4a9470` | Aksen utama: tombol, serif hero, tautan (hijau lembut) |
+| jade | `#3d7d5c` | Aksen hijau sekunder |
+| amber | `#96690f` | Aksen label mono & badge riset (emas redup) |
+| amber-soft | `#8a6d1f` | Teks label mono amber (emas redup) |
+| ink | `#3a4740` | Judul & teks utama (abu kehijauan lembut) |
+| text-secondary | `#66746b` | Deskripsi & metadata |
+| border | `#dfe9e2` | Garis & border kartu (abu hijau muda) |
 
-Latar memakai glow radial hijau jade yang sangat halus di area hero
-(bukan gradient ungu/biru). Jangan tukar ke mode terang, tanpa
-glassmorphism, tanpa shadow berat.
+Latar putih polos, tanpa glow radial (glow hijau jade dihapus saat
+pindah ke tema terang, Nov 2026). Tanpa glassmorphism; kartu memakai
+bayangan halus agar terbaca di latar terang.
 
 ## Tipografi
 
@@ -45,9 +45,9 @@ glassmorphism, tanpa shadow berat.
 
 ## Struktur
 
-- Header: logo kotak mint "F." + "Fakhri / DATA ANALYST — PEKANBARU",
-  nav pill gelap di tengah (Tentang, Pendidikan, Pengalaman, Proyek,
-  Pelatihan, Keahlian) dengan item aktif berpill, tombol putih
+- Header: logo kotak hijau lembut "F." + "Fakhri / DATA ANALYST — PEKANBARU",
+  nav pill terang di tengah (Tentang, Pendidikan, Pengalaman, Proyek,
+  Pelatihan, Keahlian) dengan item aktif berpill, tombol hijau lembut
   "Hubungi Saya" di kanan yang membuka profil Instagram
   @fakhri_074 (tab baru).
 - Hero satu kolom (maks. 860px, tanpa kartu visualisasi K-Means dan

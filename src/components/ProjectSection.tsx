@@ -16,7 +16,7 @@ export default function ProjectSection() {
             {/* Brandis */}
             <article className="min-w-0 rounded-[24px] border border-border bg-panel p-5 sm:p-8">
               <div className="flex flex-wrap items-baseline justify-between gap-2">
-                <h3 className="text-[clamp(1.25rem,5vw,1.5rem)] font-extrabold break-words text-white">
+                <h3 className="text-[clamp(1.25rem,5vw,1.5rem)] font-extrabold break-words text-ink">
                   {brandisProject.name}
                 </h3>
                 <p className="shrink-0 font-mono text-xs font-semibold tracking-[0.14em] text-amber-soft uppercase">
@@ -43,7 +43,7 @@ export default function ProjectSection() {
                 {brandisProject.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="rounded-full border border-border bg-background-soft px-3 py-1.5 font-mono text-xs font-semibold tracking-wide text-white"
+                    className="rounded-full border border-border bg-background-soft px-3 py-1.5 font-mono text-xs font-semibold tracking-wide text-ink"
                   >
                     {tag.toUpperCase()}
                   </span>
@@ -53,7 +53,7 @@ export default function ProjectSection() {
             {/* Dashboard Harga Bahan Pokok */}
             <article className="min-w-0 rounded-[24px] border border-border bg-panel p-5 sm:p-8">
               <div className="flex flex-wrap items-baseline justify-between gap-2">
-                <h3 className="text-[clamp(1.25rem,5vw,1.5rem)] font-extrabold break-words text-white">
+                <h3 className="text-[clamp(1.25rem,5vw,1.5rem)] font-extrabold break-words text-ink">
                   {dashboardProject.name}
                 </h3>
                 <p className="shrink-0 font-mono text-xs font-semibold tracking-[0.14em] text-amber-soft uppercase">
@@ -80,7 +80,7 @@ export default function ProjectSection() {
                 {dashboardProject.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="rounded-full border border-border bg-background-soft px-3 py-1.5 font-mono text-xs font-semibold tracking-wide text-white"
+                    className="rounded-full border border-border bg-background-soft px-3 py-1.5 font-mono text-xs font-semibold tracking-wide text-ink"
                   >
                     {tag.toUpperCase()}
                   </span>

@@ -16,7 +16,7 @@ export default function EducationSection() {
               <p className="font-mono text-xs font-semibold tracking-[0.16em] text-amber-soft uppercase sm:tracking-[0.2em]">
                 Pendidikan
               </p>
-              <h3 className="mt-4 text-[clamp(1.375rem,5vw,1.5rem)] font-extrabold break-words text-white">
+              <h3 className="mt-4 text-[clamp(1.375rem,5vw,1.5rem)] font-extrabold break-words text-ink">
                 {education.degree}
               </h3>
               <p className="mt-2 leading-relaxed break-words text-muted">{education.school}</p>
@@ -40,7 +40,7 @@ export default function EducationSection() {
                   {publication.accreditation}
                 </span>
               </div>
-              <h3 className="mt-4 text-lg leading-snug font-extrabold break-words text-white">
+              <h3 className="mt-4 text-lg leading-snug font-extrabold break-words text-ink">
                 &ldquo;{publication.title}&rdquo;
               </h3>
               <p className="mt-3 leading-relaxed break-words text-muted">

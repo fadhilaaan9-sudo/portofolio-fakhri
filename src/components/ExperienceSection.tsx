@@ -18,7 +18,7 @@ export default function ExperienceSection() {
                 className="min-w-0 rounded-[24px] border border-border bg-panel p-5 sm:p-8"
               >
                 <div className="flex flex-wrap items-baseline justify-between gap-2">
-                  <h3 className="text-lg font-extrabold break-words text-white sm:text-xl">
+                  <h3 className="text-lg font-extrabold break-words text-ink sm:text-xl">
                     {job.role} — {job.place}
                   </h3>
                   <p className="shrink-0 font-mono text-xs font-semibold tracking-[0.14em] text-amber-soft uppercase">

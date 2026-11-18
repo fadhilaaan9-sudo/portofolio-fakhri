@@ -16,7 +16,7 @@ export default function TrainingSection() {
                 key={training.title}
                 className="flex min-w-0 flex-col rounded-[24px] border border-border bg-panel p-5 transition-colors hover:border-mint/50 sm:p-6"
               >
-                <h3 className="min-w-0 text-lg font-extrabold break-words text-white">
+                <h3 className="min-w-0 text-lg font-extrabold break-words text-ink">
                   {training.title}
                 </h3>
                 {training.description ? (
