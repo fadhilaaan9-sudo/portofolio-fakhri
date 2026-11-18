@@ -25,6 +25,18 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Judul section tidak tertutup header lengket saat melompat dari menu.
+   Di layar kecil header lebih tinggi karena nav mobile ikut di dalamnya. */
+section[id] {
+  scroll-margin-top: 140px;
+}
+
+@media (min-width: 1024px) {
+  section[id] {
+    scroll-margin-top: 88px;
+  }
+}
+
 body {
   background-color: #ffffff;
   color: #3a4740;
